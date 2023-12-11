@@ -25,10 +25,8 @@ SECRET_KEY = 'django-insecure-%im9-!o=2^#87t=5u)c(*r1#l&2a(1kq%%aj3d7qnl)p#n69ii
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tier1pp.azurewebsites.net','localhost']
-CSRF_TRUSTED_ORIGINS = [
-    "https://tier1pp.azurewebsites.net",
-]
+ALLOWED_HOSTS = ['tier2plasticos.azurewebsites.net', '172.174.171.185', 'localhost']
+CSRF_TRUSTED_ORIGINS = ["https://tier2plasticos.azurewebsites.net"]
 
 # Application definition
 
