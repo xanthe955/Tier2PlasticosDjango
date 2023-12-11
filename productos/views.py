@@ -440,7 +440,7 @@ def t3pe_sell(request):
             }
 
             # Enviar datos a FastAPI
-            main_api_url = "http://localhost:8001/update-quantities"
+            main_api_url = "https://tear3prueba.azurewebsites.net/clientrequest/"
             response = requests.post(main_api_url, json=data)
 
             if response.status_code == 200:
