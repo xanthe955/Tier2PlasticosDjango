@@ -173,7 +173,7 @@ def client_request(request):
 
 #funcion de Tier 1: empaques  nos pide plastic box y plastic covers 
 @csrf_exempt
-def t1_empaques__request(request):
+def t1_empaques_request(request):
     solicitudesT1E = SolicitudT1Empaques.objects.all()
     context = {"datos": solicitudesT1E}
 
@@ -230,7 +230,7 @@ def t1_empaques__request(request):
 
 #funcion de Tier 1: equipos nos pide carcasas
 @csrf_exempt
-def t1_equipos__request(request):
+def t1_equipos_request(request):
     solicitudesT1Eq = SolicitudT1Equipos.objects.all()
     context = {"datos": solicitudesT1Eq}
 
