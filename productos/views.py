@@ -431,7 +431,7 @@ def t3pe_sell(request):
 
             # Datos para enviar a FastAPI
             data = {
-                "caja_de_airpods": RawMaterial.caja_de_airposd,
+                "caja_de_airpods": RawMaterial.caja_de_airpods,
                 "caja_de_telefono": RawMaterial.caja_de_telefono,
                 "caja_de_cargador": RawMaterial.caja_de_cargador,
                 "plastico_para_carcasas_de_iphone": RawMaterial.plastico_para_carcasas_de_iphone,
