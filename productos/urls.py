@@ -17,5 +17,5 @@ urlpatterns = [
     path('contar-solicitudes/', views.alexa_contar_solicitudes, name='alexa-contar-solicitudes'),
     path('consulta-inventario/', views.alexa_consulta_inventario, name='alexa-consulta-inventario'),
     path('obtener-datos-desde-ciudad/<str:ciudad_origen>/', views.obtener_datos_envios_desde_ciudad, name='obtener-datos-envios'),
-    path('t3pesell', views.t3pe_sell, name='t3pe_sell'),
+    path('t3pesell/', views.t3pe_sell, name='t3pe_sell'),
 ]
